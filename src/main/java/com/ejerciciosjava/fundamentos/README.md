@@ -139,6 +139,106 @@ Este paquete contiene ejercicios para aprender los conceptos básicos de program
 - continue es útil para filtrar elementos
 - Úsalos con moderación para mantener el código legible
 
+### 3. Ejercicios Adicionales de Fundamentos (EjercicioNuevosFundamentos.java)
+
+#### Ejercicio 1: Gestión de inventario de tienda
+**Objetivo:** Aplicar conceptos de arrays, bucles y condicionales en un contexto real.
+
+**Conceptos clave:**
+- Arrays paralelos para almacenar datos relacionados
+- Bucles for para recorrer y procesar datos
+- Condicionales if para tomar decisiones
+- Cálculos de estadísticas básicas
+- Formateo de salida
+
+**Consejos:**
+- Usa arrays paralelos para mantener datos relacionados
+- Recorre los arrays con bucles for tradicionales
+- Acumula valores para calcular totales y medias
+- Usa String.format() para formatear números decimales
+
+#### Ejercicio 2: Análisis de temperaturas
+**Objetivo:** Practicar manejo de datos numéricos y procesamiento de información meteorológica.
+
+**Conceptos clave:**
+- Arrays para almacenar datos temporales
+- Cálculo de diferencias y medias
+- Comparación de valores numéricos
+- Búsqueda de máximos y mínimos
+- Manejo de cadenas de texto
+
+**Consejos:**
+- Almacena datos por día para facilitar el procesamiento
+- Calcula diferencias entre valores relacionados
+- Usa variables para acumular resultados
+- Compara valores para encontrar máximos y mínimos
+
+#### Ejercicio 3: Gestión de notas de estudiantes
+**Objetivo:** Aplicar conceptos de arrays, bucles y cálculos estadísticos en contexto educativo.
+
+**Conceptos clave:**
+- Arrays para almacenar datos de estudiantes
+- Cálculo de notas medias
+- Conteo de condiciones específicas
+- Porcentajes y estadísticas
+- Validación de datos
+
+**Consejos:**
+- Calcula notas medias usando operaciones aritméticas básicas
+- Usa contadores para registrar condiciones específicas
+- Calcula porcentajes dividiendo y multiplicando por 100
+- Valida los datos antes de procesarlos
+
+### 4. Ejercicios Adicionales de Control de Flujo (EjercicioNuevosControlFlujo.java)
+
+#### Ejercicio 1: Sistema de gestión de biblioteca
+**Objetivo:** Practicar bucles while, switch-case y procesamiento de datos dinámicos.
+
+**Conceptos clave:**
+- Bucle while con condición de salida
+- Switch-case para clasificar datos
+- Contadores por categoría
+- Procesamiento dinámico de entrada
+- Cálculos de porcentajes
+
+**Consejos:**
+- Usa while cuando no sabes cuántos datos se introducirán
+- Switch-case es ideal para clasificar por categorías fijas
+- Acumula contadores para cada categoría
+- Calcula porcentajes al final del procesamiento
+
+#### Ejercicio 2: Análisis de ventas de tienda
+**Objetivo:** Aplicar bucles for, arrays y cálculos de ratios y estadísticas.
+
+**Conceptos clave:**
+- Arrays para datos semanales
+- Bucles for para procesar datos fijos
+- Cálculo de ratios y estadísticas
+- Búsqueda de mejores valores
+- Manejo de división por cero
+
+**Consejos:**
+- Usa for cuando sabes exactamente cuántas iteraciones necesitas
+- Cuidado con la división por cero al calcular ratios
+- Almacena valores máximos mientras procesas
+- Usa condicionales para manejar casos especiales
+
+#### Ejercicio 3: Control de acceso a evento
+**Objetivo:** Combinar bucles while, arrays y procesamiento de datos temporales.
+
+**Conceptos clave:**
+- Bucle while con condición de salida compleja
+- Arrays para datos por hora
+- Parseo de cadenas a números
+- Conteo por categorías
+- Cálculos de medias y máximos
+
+**Consejos:**
+- Usa condiciones complejas en while para controlar la entrada
+- Parsea cadenas cuando necesitas extraer datos numéricos
+- Usa arrays indexados para datos temporales
+- Valida los datos antes de usarlos como índices
+
 ## Cómo ejecutar los ejercicios
 
 1. Abre el archivo Java correspondiente
@@ -150,6 +250,13 @@ public static void main(String[] args) {
     ejercicios.ejercicio1();
     // Llama a otros ejercicios según necesites
 }
+
+// Para los nuevos ejercicios:
+EjercicioNuevosFundamentos nuevosFundamentos = new EjercicioNuevosFundamentos();
+nuevosFundamentos.ejercicio1(); // o ejercicio2(), ejercicio3()
+
+EjercicioNuevosControlFlujo nuevosControl = new EjercicioNuevosControlFlujo();
+nuevosControl.ejercicio1(); // o ejercicio2(), ejercicio3()
 ```
 
 ## Buenas prácticas

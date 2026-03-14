@@ -13,7 +13,14 @@ com.ejerciciosjava/
 │   ├── examen_strings/                          # Strings y Manipulación de Texto
 │   ├── examen_POO/                              # Programación Orientada a Objetos
 │   ├── examen_variables/                        # Variables y Tipos de Datos
-│   └── examen_control_flujo/                    # Control de Flujo
+│   ├── examen_control_flujo/                    # Control de Flujo
+│   ├── examen_arkham/                           # Examen Arkham - OSA
+│   ├── examen_planetas/                         # Examen Planetas - BASA
+│   ├── examen_estacion_meteorologica/           # Examen Estación Meteorológica
+│   ├── examen_centro_educativo/                 # Examen Centro Educativo
+│   ├── examen_empresa_tecnologica/               # Examen Empresa Tecnológica
+│   ├── examen_biblioteca_publica/                # Examen Biblioteca Pública
+│   └── EstudiosAcademicos.java                  # Examen Oficina Estudios Académicos
 ├── poop/examenes/examen_herencia/               # Herencia y Polimorfismo
 └── colecciones/examenes/                        # Exámenes de Colecciones
     ├── examen_vuelos/                           # Gestión de Vuelos
@@ -56,20 +63,69 @@ com.ejerciciosjava/
 - **Conceptos**: Encapsulación, herencia, toString(), equals(), hashCode()
 - **Ubicación**: Fundamentos (conceptos POO básicos)
 
-### 6. Herencia y Polimorfismo (`poop/examenes/examen_herencia/`)
+### 6. Examen Arkham - OSA (`fundamentos/examenes/examen_arkham/`)
+- **Nivel**: Medio-Alto
+- **Contenido**: Gestión de investigaciones y expediciones
+- **Formato**: Clase única con método main
+- **Conceptos**: Arrays paralelos, cálculos estadísticos complejos, procesamiento de datos anidados
+- **Basado en**: PDF "Control java Arkham.pdf"
+
+### 7. Examen Planetas - BASA (`fundamentos/examenes/examen_planetas/`)
+- **Nivel**: Medio
+- **Contenido**: Estudio de cuerpos celestes y satélites
+- **Formato**: Clase única con método main
+- **Conceptos**: Arrays para datos complejos, cálculos de proporciones, relaciones entre elementos
+- **Basado en**: PDF "Control java Planetas.pdf"
+
+### 8. Examen Estación Meteorológica (`fundamentos/examenes/examen_estacion_meteorologica/`)
+- **Nivel**: Medio-Alto
+- **Contenido**: Análisis climatológico y cambio climático
+- **Formato**: Clase única con método main
+- **Conceptos**: Datos temporales, criterios complejos, análisis estadístico avanzado
+- **Basado en**: PDF "Control java Estacion meteorologica.pdf"
+
+### 9. Examen Oficina Estudios Académicos (`fundamentos/examenes/EstudiosAcademicos.java`)
+- **Nivel**: Medio
+- **Contenido**: Gestión de notas de alumnos por clases
+- **Formato**: Clase única con método main
+- **Conceptos**: Bucles anidados, cálculos de notas, estadísticas porcentuales
+- **Basado en**: PDF "Control java Oficina Estudios Academica.pdf"
+
+### 10. Examen Centro Educativo (`fundamentos/examenes/examen_centro_educativo/`)
+- **Nivel**: Medio-Alto
+- **Contenido**: Gestión de departamentos y clases educativas
+- **Formato**: Clase única con método main
+- **Conceptos**: Estructuras condicionales complejas, múltiples tipos de datos, estadísticas avanzadas
+- **Basado en**: PDF "Control java Clases-Departamento.pdf"
+
+### 11. Examen Empresa Tecnológica (`fundamentos/examenes/examen_empresa_tecnologica/`)
+- **Nivel**: Medio-Alto
+- **Contenido**: Gestión de proyectos y empleados tecnológicos
+- **Formato**: Clase única con método main
+- **Conceptos**: Relaciones entre entidades, cálculos de productividad, análisis de datos
+- **Basado en**: Contexto empresarial tecnológico
+
+### 12. Examen Biblioteca Pública (`fundamentos/examenes/examen_biblioteca_publica/`)
+- **Nivel**: Medio-Alto
+- **Contenido**: Gestión de préstamos y usuarios de biblioteca
+- **Formato**: Clase única con método main
+- **Conceptos**: Validación de datos, análisis temporal, estadísticas de uso
+- **Basado en**: Contexto de gestión bibliotecaria
+
+### 13. Herencia y Polimorfismo (`poop/examenes/examen_herencia/`)
 - **Nivel**: Alto
 - **Contenido**: Clases abstractas y polimorfismo
 - **Clases**: Vehiculo (abstracta), Coche, Motocicleta
 - **Conceptos**: Métodos abstractos, @Override, polimorfismo avanzado
 - **Ubicación**: POOP (Programación Orientada a Objetos Avanzada)
 
-### 7. Gestión de Vuelos (`colecciones/examenes/examen_vuelos/`)
+### 14. Gestión de Vuelos (`colecciones/examenes/examen_vuelos/`)
 - **Nivel**: Medio-Alto
 - **Contenido**: Gestión de sistema de vuelos
 - **Colecciones**: TreeMap, HashSet, TreeSet
 - **Conceptos**: Estructuras de datos complejas, relaciones entre objetos
 
-### 8. Gestión de Biblioteca (`colecciones/examenes/examen_biblioteca/`)
+### 15. Gestión de Biblioteca (`colecciones/examenes/examen_biblioteca/`)
 - **Nivel**: Alto
 - **Contenido**: Sistema completo de biblioteca
 - **Colecciones**: TreeMap, ArrayList, HashMap, TreeSet
@@ -145,6 +201,24 @@ java com.ejerciciosjava.fundamentos.examenes.examen_control_flujo.TestControlFlu
 # POO (Fundamentos)
 java com.ejerciciosjava.fundamentos.examenes.examen_POO.TestPOO
 
+# Examen Arkham (Fundamentos)
+java com.ejerciciosjava.fundamentos.examenes.examen_arkham.TestArkham
+
+# Examen Planetas (Fundamentos)
+java com.ejerciciosjava.fundamentos.examenes.examen_planetas.TestPlanetas
+
+# Examen Estación Meteorológica (Fundamentos)
+java com.ejerciciosjava.fundamentos.examenes.examen_estacion_meteorologica.TestEstacionMeteorologica
+
+# Examen Centro Educativo (Fundamentos)
+java com.ejerciciosjava.fundamentos.examenes.examen_centro_educativo.TestCentroEducativo
+
+# Examen Empresa Tecnológica (Fundamentos)
+java com.ejerciciosjava.fundamentos.examenes.examen_empresa_tecnologica.TestEmpresaTecnologica
+
+# Examen Biblioteca Pública (Fundamentos)
+java com.ejerciciosjava.fundamentos.examenes.examen_biblioteca_publica.TestBibliotecaPublica
+
 # Herencia (POOP)
 java com.ejerciciosjava.poop.examenes.examen_herencia.TestHerencia
 
@@ -160,13 +234,20 @@ java com.ejerciciosjava.colecciones.examenes.examen_vuelos.TestExamen
 3. **Strings y Manipulación** - Procesamiento de texto básico
 4. **Control de Flujo** - Estructuras condicionales y bucles
 5. **Programación Orientada a Objetos** - Conceptos POO básicos
+6. **Examen Arkham (OSA)** - Arrays paralelos y datos complejos
+7. **Examen Planetas (BASA)** - Arrays y cálculos de proporciones
+8. **Examen Estación Meteorológica** - Datos temporales y criterios complejos
+9. **Examen Centro Educativo** - Estructuras condicionales complejas
+10. **Examen Empresa Tecnológica** - Relaciones entre entidades
+11. **Examen Biblioteca Pública** - Validación y análisis temporal
+12. **Examen Oficina Estudios Académicos** - Aplicación práctica con bucles anidados
 
 ### Programación Orientada a Objetos Avanzada
-6. **Herencia y Polimorfismo** - POO avanzado
+13. **Herencia y Polimorfismo** - POO avanzado
 
 ### Aplicaciones Prácticas
-7. **Gestión de Vuelos** - Aplicación de colecciones simples
-8. **Gestión de Biblioteca** - Aplicación de colecciones complejas
+14. **Gestión de Vuelos** - Aplicación de colecciones simples
+15. **Gestión de Biblioteca** - Aplicación de colecciones complejas
 
 ## 🔄 Organización por Paquetes
 
@@ -177,6 +258,7 @@ java com.ejerciciosjava.colecciones.examenes.examen_vuelos.TestExamen
 - **Strings**: Manipulación de texto (concepto fundamental)
 - **Control de Flujo**: Estructuras condicionales y bucles
 - **POO**: Programación Orientada a Objetos básica
+- **Ejercicios Adicionales**: Nuevos ejercicios prácticos de fundamentos y control de flujo basados en estilo de exámenes
 
 ### Arrays (`arrays/`)
 - Estructuras de datos fundamentales
